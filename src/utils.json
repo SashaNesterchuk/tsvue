@@ -1,5 +1,11 @@
 [
-    {
-        name:
-    }
+  {
+    "name": "temperatures"
+  },
+  {
+    "name": "cameras"
+  },
+  {
+    "name": "water detector"
+  }
 ]
