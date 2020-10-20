@@ -1,11 +1,17 @@
-import Vue from "vue";
-import Vuex from "vuex";
+import Vue from 'vue'
+import Vuex from 'vuex'
 
-Vue.use(Vuex);
+import * as detectorsModule from './modules/detectors'
+
+Vue.use(Vuex)
+
+const detectors = { ...detectorsModule, namespaced: true, name: 'detectors' }
 
 export default new Vuex.Store({
   state: {},
   mutations: {},
   actions: {},
-  modules: {}
-});
+  modules: {
+    detectors
+  }
+})

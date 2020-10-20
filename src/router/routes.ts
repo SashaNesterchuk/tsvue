@@ -3,8 +3,13 @@ import { RouteConfig } from 'vue-router'
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'dashboard.page',
+    name: 'dashboard',
     component: () => import('../pages/DashboardPage.vue')
+  },
+  {
+    path: '/detectors/:id',
+    name: 'detectors.item',
+    component: () => import('../pages/DetectorPage.vue')
   }
 ]
 
