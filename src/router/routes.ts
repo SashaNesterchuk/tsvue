@@ -10,6 +10,11 @@ const routes: Array<RouteConfig> = [
     path: '/detectors/:id',
     name: 'detectors.item',
     component: () => import('../pages/DetectorPage.vue')
+  },
+  {
+    path: '/rooms',
+    name: 'rooms',
+    component: () => import('../pages/rooms/RoomsPage.vue')
   }
 ]
 

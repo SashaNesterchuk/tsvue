@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-import { DetectorsInterface } from '@/detectors/DetectorsInterface'
+import { DetectorsInterface } from '@/types/'
 import { Component, Vue } from 'vue-property-decorator'
 
 @Component

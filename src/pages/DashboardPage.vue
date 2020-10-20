@@ -13,7 +13,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import DetectorItem from '../components/detector/DetectorItem.vue'
-import { DetectorsInterface } from '../detectors/DetectorsInterface'
+import { DetectorsInterface } from '../types'
 
 @Component({
   components: {

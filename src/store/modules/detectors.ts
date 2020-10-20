@@ -1,4 +1,4 @@
-import { DetectorsInterface } from '@/detectors/DetectorsInterface'
+import { DetectorsInterface } from '@/types'
 
 export const state = {
   detectors: [
